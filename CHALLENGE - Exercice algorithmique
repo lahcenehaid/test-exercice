@@ -1,0 +1,26 @@
+const septembre = 10
+const octobre = 9
+const novembre = 8
+const decembre = 7
+const janvier = 6
+const fevrier = 5
+const mars = 4
+const avril = 3
+const mai = 2
+const juin = 1
+
+
+function drawMyPen(mois){
+    console.log(' /\ ')
+    console.log('/__\\')
+
+    for (let i = 0 ; i < mois ; i++){
+        console.log("||||")
+    } 
+    console.log("|__|")
+    if( mois > mars ){
+        console.log("|  |")
+    }
+    console.log("|__|")
+}
+drawMyPen(mai)
